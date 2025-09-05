@@ -22,3 +22,13 @@ Further documentation can be found at <https://hexdocs.pm/magic_squares>.
 gleam run   # Run the project
 gleam test  # Run the tests
 ```
+
+## How to run
+
+```sh
+gleam add gleam_erlang
+gleam add gleam_otp@1
+gleam clean
+gleam build
+gleam run
+```
